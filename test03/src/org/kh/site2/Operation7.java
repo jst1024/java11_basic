@@ -1,0 +1,37 @@
+package org.kh.site2;
+// 대입 연산자 : 연산 후에 대입하는 연산자 : +=, -=, *=, %=, &=,|= 등등
+// 비트 연산자 : &(and), |(or), ~(complement : not), ^(xor), >>(right shift), <<(left shift)
+public class Operation7 {
+
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 15;
+		int tmp;
+		a += b;	// a = 35, b = 15
+		b -= a;	// a = 35, b = -20
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+		tmp = a;
+		a = b;
+		b = tmp;
+		/* a 와 b의 값을 서로 교환 하고 싶을때
+		 c에 a값을 먼저 넣고 		c = a
+		 a에 b값을 넣고			a = b
+		 b에 c값을 넣는다		b = c
+		 */
+		System.out.println("교환후");
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+		int x = 0b01101;
+		int y = 0b01011;
+		System.out.println("x = "+Integer.toBinaryString(x));
+		System.out.println("y = "+Integer.toBinaryString(y));
+		System.out.println("x & y :"+Integer.toBinaryString(x & y));//and
+		System.out.println("x | y :"+Integer.toBinaryString(x | y));//or
+		System.out.println("x ^ y :"+Integer.toBinaryString(x ^ y));//xor
+		System.out.println("~x : "+Integer.toBinaryString(~x));//not
+		System.out.println("x >> 2 : "+Integer.toBinaryString(x >> 2));// >으로 2칸
+		System.out.println("y << 2 : "+Integer.toBinaryString(y << 2));
+	}
+
+}

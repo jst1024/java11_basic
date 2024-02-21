@@ -1,0 +1,21 @@
+package org.kh.java;
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		String name = "\'이원석\'"; //래퍼런스 타입 데이터 여러개 저장 가능 앞문자 대문자로 시작
+		short age = 30;
+		float height = 178.1f;
+		double weight = 85.3f;
+		char init = 'k';
+		System.out.println("이름 : "+name);
+		
+		/* 이스케이프 문자
+		 \n : 줄 바꿈
+		 \t : 탭
+		 \\ : \를 출력할 때 		중요
+		 \
+		 */
+	}
+
+}

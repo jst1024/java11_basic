@@ -1,0 +1,18 @@
+package org.kh.java;
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		String name = "wonseok";
+		short age = 30;
+		float height = 178.1f;
+		double weight = 85.3f;
+		
+		/* 이스케이프 문자
+		 \n : 줄 바꿈
+		 \t : 탭
+		 \\ : \를 출력할 때
+		 */
+	}
+
+}
